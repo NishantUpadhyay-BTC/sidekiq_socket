@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["nishantupadhyay@botreetechnologies.com"]
 
   spec.summary       = "This gem is for testing sidekiq with a socket"
-  spec.description   = "This gem is for testing sidekiq with a socket"
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.description   = "Trying to connect to socket, fetch data and send it to Redis via Sidekiq"
+  spec.homepage      = 'https://github.com/NishantUpadhyay-BTC/sidekiq_socket.git'
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -29,4 +29,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "sidekiq", '~> 0'
+
 end
